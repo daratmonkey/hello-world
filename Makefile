@@ -1,2 +1,4 @@
+CFLAGS = ''
+
 helloworld: helloworld.c
-    gcc -o helloworld helloworld.c
+	gcc helloworld.c -o helloworld
